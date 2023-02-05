@@ -1,1 +1,3 @@
-print("Hello")
+ import qrcode as qr
+ img = qr.make("http://kevinsecurity.com")
+ img.save("Kevin_Security.png")
